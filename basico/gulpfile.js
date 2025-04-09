@@ -12,7 +12,8 @@ const antes2 = cb => {
 }
 
 function copiar(cb) {
-  console.log('Tarefa de copiar!')
+  gulp.src(['pastaA/arquivo1.txt', 'pastaA/arquivo2.txt'])
+  .pipe(gulp.dest('pastaB'))
   return cb()
 }
 
