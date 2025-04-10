@@ -19,6 +19,7 @@
     "gulp-typescript": "^6.0.0-alpha.1",
     "gulp-uglify": "^3.0.2",
     "gulp-uglifycss": "^1.1.0",
+    "sass": "^1.86.3",
     "typescript": "^5.8.3"
   }
 }
