@@ -1,13 +1,13 @@
-@import 'variaveis';
-@import 'cores';
+@use 'variaveis';
+@use 'cores';
 
-@import 'global';
-@import 'logo';
-@import 'cabecalho';
-@import 'menu';
-@import 'conteudo';
-@import 'rodape';
+@use 'global';
+@use 'logo';
+@use 'cabecalho';
+@use 'menu';
+@use 'conteudo';
+@use 'rodape';
 
-@import 'sistemaGrid';
-@import 'botoes';
-@import 'painel';
+@use 'sistemaGrid';
+@use 'botoes';
+@use 'painel';
