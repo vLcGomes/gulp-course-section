@@ -4,7 +4,7 @@ const concat = require('gulp-concat')
 const uglify = require('gulp-uglify')
 const babel = require('gulp-babel')
 
-function padrao(callback) {
+function transformacaoJS(callback) {
 
   gulp.src('src/**/*.js')
     .pipe(babel({
@@ -18,5 +18,10 @@ function padrao(callback) {
   return callback()
 }
 
+function fim(cb) {
+  console.log('Fim!')
+  return cb()
+}
 
-exports.default = series(padrao)
+
+exports.default = series(transformacaoJS, fim)
